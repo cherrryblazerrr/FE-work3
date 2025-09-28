@@ -15,21 +15,21 @@ html, body {
     overflow: hidden;
     text-align: center;
 }
-.float-footer img, .float-header img{
+.float-footer img, .float-header img, .flex-header img, .flex-footer img{
     width: auto;
     height: auto;
 }
 .float-left-content{
     float:left;
     width: 50%;
-    height:500px;
+    height:700px;
     background-color: peachpuff;
     align-content:center;
 }
 .float-right-content{
     float: right;
     width: 50%;
-    height:500px;
+    height:700px;
     background-color: mistyrose;
     align-content:center;
 }
@@ -56,10 +56,6 @@ html, body {
     height: 150px;
     background-color: darkred;
     overflow: hidden;
-}
-.flex-header img, .flex-footer img{
-    width: auto;
-    height: auto;
 }
 .text{
     padding: 10%;
